@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "[ -x bin/register-skills.sh ] && bash bin/register-skills.sh >/dev/null 2>&1 || true"
+            "command": "[ -x bin/provision.sh ] && bash bin/provision.sh >/dev/null 2>&1 || true"
           }
         ]
       }
